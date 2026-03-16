@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Rental - Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-gamepad"></i>
+                <h2>VALORANT RENTAL</h2>
+                <p>Admin Panel</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="#" class="active" onclick="showSection('dashboard')">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" onclick="showSection('keys')">
+                    <i class="fas fa-key"></i>
+                    <span>Quản lý Key</span>
+                </a>
+                <a href="#" onclick="showSection('accounts')">
+                    <i class="fas fa-users"></i>
+                    <span>Tài khoản Riot</span>
+                </a>
+                <a href="#" onclick="showSection('sessions')">
+                    <i class="fas fa-clock"></i>
+                    <span>Phiên hoạt động</span>
+                </a>
+                <a href="#" onclick="showSection('violations')">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Vi phạm</span>
+                </a>
+                <a href="#" onclick="showSection('revenue')">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Doanh thu</span>
+                </a>
+                <a href="#" onclick="showSection('settings')">
+                    <i class="fas fa-cog"></i>
+                    <span>Cài đặt</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="admin-info">
+                    <i class="fas fa-user-circle"></i>
+                    <div>
+                        <p>Admin</p>
+                        <small>Đang hoạt động</small>
+                    </div>
+                </div>
+                <button onclick="logout()" class="logout-btn">
+                    <i class="fas fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="content-header">
+                <h1 id="pageTitle">Dashboard</h1>
+                <div class="header-actions">
+                    <div class="notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </div>
+                    <div class="date-time">
+                        <i class="far fa-calendar-alt"></i>
+                        <span id="currentDateTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Sections -->
+            <div id="contentArea" class="content-area">
+                <!-- Dashboard Section -->
+                <div id="dashboard-section" class="section active">
+                    <!-- Stats Cards -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon blue">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 id="totalUsers">0</h3>
+                                <p>Tổng người dùng</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon green">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 id="activeSessions">0</h3>
+                                <p>Đang chơi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon orange">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 id="availableAccounts">0</h3>
+                                <p>TK trống</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon purple">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 id="todayRevenue">0đ</h3>
+                                <p>Doanh thu hôm nay</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Row -->
+                    <div class="charts-row">
+                        <div class="chart-card">
+                            <h3>Doanh thu 7 ngày qua</h3>
+                            <canvas id="revenueChart"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Phân bố game</h3>
+                            <canvas id="gameChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activities -->
+                    <div class="recent-activities">
+                        <h3>Hoạt động gần đây</h3>
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Thời gian</th>
+                                    <th>Người dùng</th>
+                                    <th>Hành động</th>
+                                    <th>Chi tiết</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recentActivities">
+                                <tr>
+                                    <td colspan="4" class="loading">Đang tải...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Keys Management Section -->
+                <div id="keys-section" class="section">
+                    <div class="section-header">
+                        <h2>Quản lý Key kích hoạt</h2>
+                        <button class="btn-primary" onclick="showGenerateKeyModal()">
+                            <i class="fas fa-plus"></i> Tạo key mới
+                        </button>
+                    </div>
+
+                    <!-- Filter Bar -->
+                    <div class="filter-bar">
+                        <input type="text" id="keySearch" placeholder="Tìm kiếm key...">
+                        <select id="keyStatusFilter">
+                            <option value="all">Tất cả trạng thái</option>
+                            <option value="Available">Còn hạn</option>
+                            <option value="Sold">Đã bán</option>
+                            <option value="Expired">Hết hạn</option>
+                        </select>
+                        <button onclick="filterKeys()" class="btn-secondary">
+                            <i class="fas fa-search"></i> Lọc
+                        </button>
+                    </div>
+
+                    <!-- Keys Table -->
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Mã Key</th>
+                                <th>Loại</th>
+                                <th>Thời hạn</th>
+                                <th>Giá</th>
+                                <th>Trạng thái</th>
+                                <th>Ngày tạo</th>
+                                <th>Người mua</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="keysTableBody">
+                            <tr>
+                                <td colspan="8" class="loading">Đang tải dữ liệu...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Riot Accounts Section -->
+                <div id="accounts-section" class="section">
+                    <div class="section-header">
+                        <h2>Quản lý tài khoản Riot</h2>
+                        <button class="btn-primary" onclick="showAddAccountModal()">
+                            <i class="fas fa-plus"></i> Thêm tài khoản
+                        </button>
+                    </div>
+
+                    <!-- Accounts Table -->
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tên đăng nhập</th>
+                                <th>Region</th>
+                                <th>Trạng thái</th>
+                                <th>Người dùng hiện tại</th>
+                                <th>Lần cuối dùng</th>
+                                <th>Số lần dùng</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="accountsTableBody">
+                            <tr>
+                                <td colspan="8" class="loading">Đang tải dữ liệu...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Sessions Section -->
+                <div id="sessions-section" class="section">
+                    <h2>Phiên hoạt động</h2>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Session ID</th>
+                                <th>User ID</th>
+                                <th>Tài khoản</th>
+                                <th>Bắt đầu</th>
+                                <th>Thời gian</th>
+                                <th>Trạng thái</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sessionsTableBody">
+                            <tr>
+                                <td colspan="7" class="loading">Đang tải dữ liệu...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Violations Section -->
+                <div id="violations-section" class="section">
+                    <h2>Lịch sử vi phạm</h2>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Thời gian</th>
+                                <th>User ID</th>
+                                <th>Loại vi phạm</th>
+                                <th>Chi tiết</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody id="violationsTableBody">
+                            <tr>
+                                <td colspan="5" class="loading">Đang tải dữ liệu...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Revenue Section -->
+                <div id="revenue-section" class="section">
+                    <h2>Thống kê doanh thu</h2>
+                    
+                    <div class="revenue-summary">
+                        <div class="summary-card">
+                            <h4>Hôm nay</h4>
+                            <p id="revenueToday">0đ</p>
+                        </div>
+                        <div class="summary-card">
+                            <h4>Tuần này</h4>
+                            <p id="revenueWeek">0đ</p>
+                        </div>
+                        <div class="summary-card">
+                            <h4>Tháng này</h4>
+                            <p id="revenueMonth">0đ</p>
+                        </div>
+                        <div class="summary-card">
+                            <h4>Tổng cộng</h4>
+                            <p id="revenueTotal">0đ</p>
+                        </div>
+                    </div>
+                    
+                    <canvas id="revenueDetailChart"></canvas>
+                </div>
+
+                <!-- Settings Section -->
+                <div id="settings-section" class="section">
+                    <h2>Cài đặt hệ thống</h2>
+                    
+                    <div class="settings-grid">
+                        <div class="setting-card">
+                            <h3>Thông tin server</h3>
+                            <div class="setting-item">
+                                <label>API URL:</label>
+                                <input type="text" id="apiUrl" value="http://localhost:5000">
+                            </div>
+                            <div class="setting-item">
+                                <label>Database:</label>
+                                <span id="dbStatus" class="status-badge success">Đang kết nối</span>
+                            </div>
+                        </div>
+                        
+                        <div class="setting-card">
+                            <h3>Cấu hình bảo mật</h3>
+                            <div class="setting-item">
+                                <label>JWT Secret:</label>
+                                <input type="password" id="jwtSecret" value="********">
+                            </div>
+                            <div class="setting-item">
+                                <label>Session timeout:</label>
+                                <select id="sessionTimeout">
+                                    <option value="30">30 phút</option>
+                                    <option value="60" selected>60 phút</option>
+                                    <option value="120">120 phút</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="setting-card">
+                            <h3>Email & Thông báo</h3>
+                            <div class="setting-item">
+                                <label>Email admin:</label>
+                                <input type="email" id="adminEmail" value="admin@valorantrental.com">
+                            </div>
+                            <div class="setting-item">
+                                <label>SMTP Server:</label>
+                                <input type="text" id="smtpServer" value="smtp.gmail.com">
+                            </div>
+                        </div>
+                        
+                        <div class="setting-card">
+                            <h3>Backup & Restore</h3>
+                            <div class="setting-item">
+                                <button class="btn-secondary" onclick="backupDatabase()">
+                                    <i class="fas fa-download"></i> Backup DB
+                                </button>
+                            </div>
+                            <div class="setting-item">
+                                <button class="btn-secondary" onclick="restoreDatabase()">
+                                    <i class="fas fa-upload"></i> Restore DB
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="settings-actions">
+                        <button class="btn-primary" onclick="saveSettings()">
+                            <i class="fas fa-save"></i> Lưu cài đặt
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generate Key Modal -->
+    <div id="generateKeyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Tạo key mới</h3>
+                <span class="close" onclick="closeModal('generateKeyModal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Loại gói:</label>
+                    <select id="keyPackageType">
+                        <option value="Day">Ngày (24h)</option>
+                        <option value="Week">Tuần (7 ngày)</option>
+                        <option value="Month">Tháng (30 ngày)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Số lượng:</label>
+                    <input type="number" id="keyQuantity" value="1" min="1" max="100">
+                </div>
+                <div class="form-group">
+                    <label>Giá (VNĐ):</label>
+                    <input type="number" id="keyPrice" value="30000" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Thời hạn (giờ):</label>
+                    <input type="number" id="keyDuration" value="24" min="1" readonly>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('generateKeyModal')">Hủy</button>
+                <button class="btn-primary" onclick="generateKeys()">Tạo key</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Account Modal -->
+    <div id="addAccountModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Thêm tài khoản Riot</h3>
+                <span class="close" onclick="closeModal('addAccountModal')">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Tên đăng nhập Riot:</label>
+                    <input type="text" id="riotUsername" placeholder="Nhập username">
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu:</label>
+                    <input type="password" id="riotPassword" placeholder="Nhập password">
+                </div>
+                <div class="form-group">
+                    <label>Region:</label>
+                    <select id="riotRegion">
+                        <option value="VN">Việt Nam</option>
+                        <option value="NA">North America</option>
+                        <option value="EU">Europe</option>
+                        <option value="KR">Korea</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('addAccountModal')">Hủy</button>
+                <button class="btn-primary" onclick="addRiotAccount()">Thêm</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

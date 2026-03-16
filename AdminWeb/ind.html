@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Rental - Admin Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <div class="logo">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h1>VALORANT RENTAL</h1>
+                <p>Admin Panel</p>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Tên đăng nhập" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Mật khẩu" required>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <i class="fas fa-sign-in-alt"></i>
+                    ĐĂNG NHẬP
+                </button>
+                
+                <div class="login-footer">
+                    <a href="#">Quên mật khẩu?</a>
+                    <span>|</span>
+                    <a href="#">Hỗ trợ</a>
+                </div>
+            </form>
+            
+            <div id="errorMessage" class="error-message" style="display: none;">
+                <i class="fas fa-exclamation-circle"></i>
+                <span>Sai tên đăng nhập hoặc mật khẩu!</span>
+            </div>
+        </div>
+        
+        <div class="login-info">
+            <p>Phiên bản 1.0.0</p>
+            <p>© 2026 Valorant Rental System</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            // Demo login - thay bằng API call thực tế
+            if (username === 'admin' && password === 'admin123') {
+                localStorage.setItem('adminToken', 'demo-token-123');
+                window.location.href = 'dashboard.html';
+            } else {
+                document.getElementById('errorMessage').style.display = 'flex';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vshDlZZwMyU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\botlamviec\\ValorantRentalSystem - Copy - Copy\\Client\\ValorantRentalClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.management\\10.0.5\\system.management.10.0.5.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

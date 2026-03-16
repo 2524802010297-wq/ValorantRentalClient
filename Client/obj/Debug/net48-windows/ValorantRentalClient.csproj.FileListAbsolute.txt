@@ -1,0 +1,5 @@
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Client\obj\Debug\net48-windows\ValorantRentalClient.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Client\obj\Debug\net48-windows\ValorantRentalClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Client\obj\Debug\net48-windows\ValorantRentalClient.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Client\obj\Debug\net48-windows\ValorantRentalClient.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Client\obj\Debug\net48-windows\ValorantRentalClient.csproj.CoreCompileInputs.cache
