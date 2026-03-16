@@ -1,0 +1,204 @@
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.exe
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.deps.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.runtimeconfig.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\scopedcss\bundle\ValorantRentalServer.styles.css
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\refint\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ValorantRentalServer.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\ref\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\bin\Debug\net6.0\ValorantRentalServer.staticwebassets.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\swae.build.ex.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem\Server\obj\Debug\net6.0\Valorant.966D7CA1.Up2Date
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.staticwebassets.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.exe
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.deps.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.runtimeconfig.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\scopedcss\bundle\ValorantRentalServer.styles.css
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\swae.build.ex.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\Valorant.966D7CA1.Up2Date
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\refint\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy\Server\obj\Debug\net6.0\ref\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.staticwebassets.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.exe
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.deps.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.runtimeconfig.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\scopedcss\bundle\ValorantRentalServer.styles.css
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\swae.build.ex.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\Valorant.966D7CA1.Up2Date
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\refint\ValorantRentalServer.dll
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.pdb
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ValorantRentalServer.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\botlamviec\ValorantRentalSystem - Copy - Copy\Server\obj\Debug\net6.0\ref\ValorantRentalServer.dll
